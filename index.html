@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand logo ms-5" href="#"><img src="./img/logo.jpg"
+                        alt="Loogo de instrumentos musicales"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="instrumentos.html">Instrumentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tiendas.html">Tiendas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="conoceMas.html">Conoce mas...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid banner">
+            <h1>
+                Tu tienda musical visitanos y vuelvete un Rockstar 
+            </h1>
+            <p class="p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae impedit dignissimos nesciunt
+                accusamus eum aliquam ab nam rem cupiditate id error magni velit laudantium necessitatibus at, mollitia
+                officia similique, culpa adipisci voluptatem sapiente, molestias possimus? Molestiae illum
+                exercitationem
+                dolores consequuntur? Ex soluta illo reiciendis, expedita rerum voluptates tempora provident consectetur
+                adipisci eius! Quos corporis excepturi incidunt vel soluta quisquam expedita unde voluptas laborum
+                accusantium at cumque necessitatibus, assumenda, suscipit asperiores ad aliquam ipsa enim quo a aliquid,
+                eveniet voluptatum nobis iusto. Dolores assumenda architecto exercitationem temporibus possimus
+                asperiores
+                omnis laborum optio labore eligendi alias quaerat veniam animi, nostrum incidunt!
+            </p>
+            <p class="p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae impedit dignissimos nesciunt
+                accusamus eum aliquam ab nam rem cupiditate id error magni velit laudantium necessitatibus at, mollitia
+                officia similique, culpa adipisci voluptatem sapiente, molestias possimus? Molestiae illum
+                exercitationem
+                dolores consequuntur? Ex soluta illo reiciendis, expedita rerum voluptates tempora provident consectetur
+                adipisci eius! Quos corporis excepturi incidunt vel soluta quisquam expedita unde voluptas laborum
+                accusantium at cumque necessitatibus, assumenda, suscipit asperiores ad aliquam ipsa enim quo a aliquid,
+                eveniet voluptatum nobis iusto. Dolores assumenda architecto exercitationem temporibus possimus
+                asperiores
+                omnis laborum optio labore eligendi alias quaerat veniam animi, nostrum incidunt!
+            </p>
+        </div>
+        <table class="table table-dark table-striped p-5">
+            <h2>Top Ventas</h2>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Fender</td>
+                    <td>Squire</td>
+                    <td>150$</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Gibson</td>
+                    <td>Les Paul</td>
+                    <td>500$</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Yamaha</td>
+                    <td>C40</td>
+                    <td>100$</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="accordion accordion-flush p-5 bg-light" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Fender
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">FENDER SQUIER, FENDER STRATOCASTER, FENDER TELECASTER</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Gibson
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">GIBSON LES PAUL, GIBSON SG</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Yamaha
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">YAMAHA DIGITAL PIANO NU1X AVANTGRAND HIBRIDO, YAMAHA P125B PIANO DIGITAL, YAMAHA REVSTAR RS420 BLACK STEEL GUITARRA ELECTRICA, YAMAHA ACUSTICA C40.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bd-footer py-4 py-md-5 mt-2 bg-dark">
+        <div class="container py-4 py-md-5 px-4 px-md-3">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="#"
+                        aria-label="Bootstrap">  
+                    <h2 class="logo-footer">Music Shop</h2>
+                    </a>
+                    <h6>
+                        Todos los derechos reservados 2022.
+                    </h6>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Inicio</a></li>
+                        <li class="mb-2"><a href="#">Instrumentos</a></li>
+                        <li class="mb-2"><a href="#">Cursos</a></li>
+                        <li class="mb-2"><a href="#">Conociendo los Instrumentos</a></li>
+                        <li class="mb-2"><a href="#">Patrocinantes</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Cursos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Guitarra Integral</a></li>
+                        <li class="mb-2"><a href="#">Teoria & Solfeo</a></li>
+                        <li class="mb-2"><a href="#">Percusion</a></li>
+                        <li class="mb-2"><a href="#">Vocalizacion</a></li>
+                        <li class="mb-2"><a href="#">Piano</a></li>
+                        <li class="mb-2"><a href="#">Violin</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Tiendas</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Santiago de chile (cl)</a></li>
+                        <li class="mb-2"><a href="#">Viña del Mar (cl)</a></li>
+                        <li class="mb-2"><a href="#">Iquique (cl)</a></li>
+                        <li class="mb-2"><a href="#">Buenos Aires (ar)</a></li>
+                        <li class="mb-2"><a href="#">Mendoza (ar)</a></li>
+                        <li class="mb-2"><a href="#">Ciudad de mexico (mx)</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Instagram</a></li>
+                        <li class="mb-2"><a href="#">Facebook</a></li>
+                        <li class="mb-2"><a href="#">Twitter</a></li>
+                        <li class="mb-2"><a href="#">Tik Tok</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
